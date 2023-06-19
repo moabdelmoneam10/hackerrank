@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- *function to get the max
- *return the max
-*/
+ * max_of_four - Return the max from four values
+ * has four parameter 
+ *@a: first value
+ *@b: sec value
+ *@c: third value
+ *@d: fourth value
+ * Return: The Max
+ */
 int max_of_four(int a, int b, int c, int d)
 {
 int max1, max2;
@@ -25,9 +30,10 @@ else
 }
 }
 /**
- *main function 
- *return 0 in success
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main() {
 int a, b, c, d;
 scanf("%d %d %d %d", &a, &b, &c, &d);
